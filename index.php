@@ -5,6 +5,7 @@
 include ('strutturaDati.php');
 //importo lo stile css
 include 'head.php';
+
 include 'body.php';
 
 /*
