@@ -5,7 +5,9 @@
 include ('strutturaDati.php');
 //importo lo stile css
 include 'head.php';
+include 'body.php';
 
+/*
 foreach($albums as $album)
 {
     echo('<div class="card">');
@@ -15,5 +17,5 @@ foreach($albums as $album)
     echo($album["title"]);
     echo($album["year"]);
     echo('</div>');
-}
+}*/
 ?>
