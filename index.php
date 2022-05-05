@@ -2,11 +2,18 @@
 //phpinfo();
 
 //importo il file contenente la struttura dati
-include 'strutturaDati.php';
-/*
+include ('strutturaDati.php');
+//importo lo stile css
+include 'head.php';
+
 foreach($albums as $album)
 {
-    echo('<div>');
+    echo('<div class="card">');
     echo($album["author"]);
-}*/
+    echo($album["genre"]);
+    echo('<img src=' . $album["poster"] . ' >');
+    echo($album["title"]);
+    echo($album["year"]);
+    echo('</div>');
+}
 ?>
