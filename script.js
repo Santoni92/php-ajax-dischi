@@ -6,9 +6,15 @@ const app = new Vue({
         albums:[]
     },
     mounted(){
-        axios.get("https://localhost/php-ajax-dischi/strutturaDati.php").then((response) => {
+        axios.get("strutturaDati.php").then((response) => {
             console.log(response);
-        }).then((error) => {
+           // console.log(response.data);
+           /* if(response.status === 200)
+            {
+                this.albums = response.data;
+                console.log(this.albums[0]);
+            }*/
+        }).catch((error) => {
             console.log(error);
         })
     }

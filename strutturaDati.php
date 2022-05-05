@@ -76,6 +76,7 @@ $albums = [
 ];
 
 //Traduco la struttura dati nel formato .json grazie alla funzione json_encode()
+
 header('Content-Type: application/json'); /*Per poter far leggere correttamente i dati a JavaScript, è necessario specificare 
                                             che le informazioni restituite sono di tipo json.
                                             Per fare questo, si usa la funzione header(), che aggiunge le intestazioni indicate
