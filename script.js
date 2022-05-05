@@ -1,0 +1,1 @@
+console.log('VUE JS OK!!');
