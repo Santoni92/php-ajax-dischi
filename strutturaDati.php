@@ -73,13 +73,13 @@ $albums = [
         "title"=>"Bad",
         "year"=> "1987"
     ]
-]
+];
 
 //Traduco la struttura dati nel formato .json grazie alla funzione json_encode()
-header('Content-type: application/json'); /*Per poter far leggere correttamente i dati a JavaScript, è necessario specificare 
+header('Content-Type: application/json'); /*Per poter far leggere correttamente i dati a JavaScript, è necessario specificare 
                                             che le informazioni restituite sono di tipo json.
                                             Per fare questo, si usa la funzione header(), che aggiunge le intestazioni indicate
                                             nella risposta HTTP. */
-echo(json_encode($albums));
+echo (json_encode($albums));
 
 ?>

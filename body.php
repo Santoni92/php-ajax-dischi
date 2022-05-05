@@ -12,9 +12,11 @@
      <!--Seconda Milestone: Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, attraverso una chiamata api, i dischi a php e li stamperà attraverso vue.--> 
     <div id="app">
         <div class="container">
-            <div v-for="album">
-
-            </div>
+            <!--div v-for="album in albums">
+                <div class="card">
+                    <img :src="" alt="">
+                </div>
+            </div-->
         </div>
     </div>
 

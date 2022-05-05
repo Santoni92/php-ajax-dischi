@@ -2,7 +2,7 @@
 //phpinfo();
 
 //importo il file contenente la struttura dati
-include ('strutturaDati.php');
+//include ('strutturaDati.php');
 //importo lo stile css
 include 'head.php';
 
